@@ -5,6 +5,9 @@ public class Basics {
 
         //ArrayList declartion
        ArrayList<Integer> list = new ArrayList<>();
+       ArrayList<String> list2 = new ArrayList<>();
+       ArrayList<Float> list3 = new ArrayList<>();
+       ArrayList<Boolean> list4 = new ArrayList<>();
 
        //adding elements in arraylist
        list.add(10); //index = 0
@@ -45,6 +48,16 @@ public class Basics {
         //sorting
         Collections.sort(list);
         System.out.println(list);
+
+        //contains function
+        System.out.println(list.contains(30)); // Output: true or false
+
+        // Converting ArrayList to Array
+        Integer[] arr = list.toArray(new Integer[0]);
+
+        //Converting Array to ArrayList
+        String[] arrr = { "A", "B", "C" };
+        List<String> listt = new ArrayList<>(Arrays.asList(arrr));
 
     }
 }
