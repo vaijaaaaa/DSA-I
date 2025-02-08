@@ -1,4 +1,4 @@
-package Arrays;
+package Easy;
 
 public class NumberOncesAndTwice {
     public static int getSingleElement(int []arr) {

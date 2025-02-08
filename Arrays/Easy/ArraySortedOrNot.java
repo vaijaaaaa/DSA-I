@@ -1,4 +1,4 @@
-package Arrays;
+package Easy;
 
 public class ArraySortedOrNot {
     public static boolean isArraySorted(int[] arr) {

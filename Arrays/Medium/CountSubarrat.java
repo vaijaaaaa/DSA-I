@@ -4,6 +4,30 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CountSubarrat {
+
+    //better solution
+    public int subarraySum(int[] nums, int k) {
+        int count = 0;
+       
+        int n = nums.length;
+        for(int i =0;i<n;i++){
+             int sum = 0;
+            for(int j = i;j<n;j++){
+                sum += nums[j];
+
+                if(sum == k){
+                    count++;
+                }
+            }
+            
+        }
+        return count;
+    }
+
+
+
+    //optimal solution
+
     @SuppressWarnings("unchecked")
     public static int findAllSubarraysWithGivenSum(int arr[], int k) {
         int n = arr.length; // size of the given array.

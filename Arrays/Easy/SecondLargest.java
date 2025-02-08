@@ -1,4 +1,4 @@
-package Arrays;
+package Easy;
 
 public class SecondLargest {
     public static int getSecondLargest(int[] arr) {

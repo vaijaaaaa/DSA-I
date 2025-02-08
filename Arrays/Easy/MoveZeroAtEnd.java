@@ -1,4 +1,4 @@
-package Arrays;
+package Easy;
 
 public class MoveZeroAtEnd {
     public static int[] Movezero(int[] arr){

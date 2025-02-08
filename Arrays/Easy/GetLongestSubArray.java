@@ -1,4 +1,4 @@
-package Arrays;
+package Easy;
 
 public class GetLongestSubArray {
     public static int getLongestSubarray(int []a, long k) {
