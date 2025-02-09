@@ -1,4 +1,4 @@
-package Medium;
+package Arrays.Medium;
 
 public class MaximunSubarray {
     public static long maxSubarraySum(int[] arr, int n) {

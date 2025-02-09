@@ -1,4 +1,4 @@
-package Easy;
+package Arrays.Easy;
 
 public class LeftRotateByKplaces {
     public static void Reverse(int[] arr, int start, int end) {

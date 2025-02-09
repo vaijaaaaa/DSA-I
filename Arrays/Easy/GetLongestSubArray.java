@@ -1,4 +1,4 @@
-package Easy;
+package Arrays.Easy;
 
 public class GetLongestSubArray {
     public static int getLongestSubarray(int []a, long k) {

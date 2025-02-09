@@ -1,4 +1,4 @@
-package Medium;
+package Arrays.Medium;
 
 public class Sort0s1s2s {
     public static void sortColors(int[] nums) {

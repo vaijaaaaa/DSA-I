@@ -1,4 +1,4 @@
-package Medium;
+package Arrays.Medium;
 
 import java.util.HashSet;
 import java.util.Set;

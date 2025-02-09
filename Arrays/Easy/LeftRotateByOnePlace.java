@@ -1,4 +1,4 @@
-package Easy;
+package Arrays.Easy;
 
 public class LeftRotateByOnePlace {
 
