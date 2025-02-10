@@ -1,4 +1,4 @@
-package Medium;
+package Arrays.Medium;
 
 class RotateMatrixBy90{
 
