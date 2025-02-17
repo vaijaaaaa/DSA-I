@@ -1,4 +1,4 @@
-package String;
+package String.Basics;
 
 public class TwoPointerLogicForPalindrome {
       // Method to check if a string is a palindrome

@@ -1,4 +1,4 @@
-package String;
+package String.Basics;
 
 public class ReverseString {
 

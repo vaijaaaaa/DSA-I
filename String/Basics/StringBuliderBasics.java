@@ -1,4 +1,4 @@
-package String;
+package String.Basics;
 
 public class StringBuliderBasics {
     public static void main(String[] args) {
