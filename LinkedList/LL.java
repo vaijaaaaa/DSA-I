@@ -26,7 +26,7 @@ public class LL {
 
     //Adding element at the last of LL (tail)
 
-    public void addList(String data){
+    public void addLast(String data){
         Node newNode = new Node(data);
         if(head == null){
             head = newNode;
@@ -104,7 +104,7 @@ public class LL {
         list.addFist("this");
         list.printList();
 
-        list.addList("Linked List");
+        list.addLast("Linked List");
         list.printList();
 
         list.deleteFirst();
