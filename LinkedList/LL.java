@@ -1,5 +1,5 @@
 public class LL {
-
+    Node head;
     class Node {
         String data;
         Node next;
@@ -13,7 +13,7 @@ public class LL {
 
     //Adding element at the first of LL (Head)
 
-    private Node head;
+    
     public void addFist(String data){
         Node newNode = new Node(data);
         if(head == null){
@@ -60,6 +60,42 @@ public class LL {
 
     }
 
+    //Deleting node at first
+
+    public void deleteFirst(){
+        if(head == null){
+            System.out.println("List is empty");
+            return;
+        }
+        head = head.next;
+    }
+
+
+    //Deleting node at last
+    public void deleteLast(){
+
+        if(head == null){
+            System.out.println("List is empty");
+            return;
+        }
+
+        if(head == null){
+            head = null;
+            return;
+        }
+
+        Node secondlast = head;
+        Node lastnode = head.next;
+
+        while (lastnode.next != null) {
+            lastnode = lastnode.next;
+            secondlast = secondlast.next;
+        }
+
+        secondlast.next = null;
+
+
+    }
 
 
     public static void main(String[] args) {
@@ -67,8 +103,14 @@ public class LL {
         list.addFist("hello");
         list.addFist("this");
         list.printList();
-        
+
         list.addList("Linked List");
+        list.printList();
+
+        list.deleteFirst();
+        list.printList();
+
+        list.deleteLast();
         list.printList();
     }
 }
