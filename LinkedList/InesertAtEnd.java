@@ -16,7 +16,6 @@ public class InesertAtEnd {
         if(head == null){
             return newNode;
         }
-
         Node temp = head;
         while(temp.next != null){
             temp = temp.next;
