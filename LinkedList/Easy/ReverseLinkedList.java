@@ -1,6 +1,7 @@
 class ListNode{
     int data;
     ListNode next;
+    public Object val;
 
     ListNode(int data){
         this.data = data;
