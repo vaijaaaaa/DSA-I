@@ -20,7 +20,7 @@ public class SortNumsInLL {
 
         // Separate nodes into three lists
         while (curr != null) {
-            if (curr.data == 0) {
+            if (curr.data == 0) {   
                 zero.next = curr;
                 zero = zero.next;
             } else if (curr.data == 1) {
