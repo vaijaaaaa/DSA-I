@@ -2,6 +2,7 @@ package Stacks;
 
 
 //Impementation of Stack using Linked List
+
 public class Basics {
 
     static class Node{
