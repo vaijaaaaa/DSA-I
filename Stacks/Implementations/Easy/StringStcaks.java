@@ -1,3 +1,7 @@
+package Stacks.Implementations.Easy;
+
+import java.util.Stack;
+
 public class StringStcaks {
     public boolean isValid(String s) {
         Stack<Character> st = new Stack<>();
