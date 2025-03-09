@@ -1,4 +1,4 @@
-package Stacks.Implementations.Easy;
+
 
 import java.util.Stack;
 
