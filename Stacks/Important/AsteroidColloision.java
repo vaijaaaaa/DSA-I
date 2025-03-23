@@ -40,7 +40,7 @@ public class AsteroidColloision {
 
 
 
-        return arr;
+        return result;
 
     }
 
