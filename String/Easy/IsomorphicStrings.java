@@ -1,3 +1,4 @@
+package String.Easy;
 
 
 import java.util.HashMap;
