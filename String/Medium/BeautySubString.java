@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class BeautySubString {
      public int findcount(String ans){
         HashMap<Character,Integer> hp = new HashMap<>();
