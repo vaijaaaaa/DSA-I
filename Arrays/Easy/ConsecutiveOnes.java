@@ -15,6 +15,7 @@ public class ConsecutiveOnes {
                 count = 0;
             }
         }
+
         
         return maximun;
 
