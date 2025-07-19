@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Math;
 
 class HeadRecursion {
     static void headRecursion(int count) {

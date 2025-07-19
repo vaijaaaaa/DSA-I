@@ -1,17 +1,17 @@
-package Recursion;
+package Recursion.Math;
 
-public class print1toN {
+public class printNto1 {
     static void  fun(int n,int i){
-        if(i>n){
+        if(n==i){
             return;
         }
-        System.out.println(i);
-        fun(n,i+1);
+        System.out.println(n);
+        fun(n-1,i);
     }
 
     public static void main(String[] args) {
         int n = 5;
-        int i=1;
+        int i=0;
         fun(n, i);
     }
 }

@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Math;
 
 import java.util.Scanner;
 
