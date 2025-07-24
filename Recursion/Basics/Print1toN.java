@@ -4,7 +4,7 @@ public class Print1toN {
     
     static void printn(int n){
 
-        if(n ==0){
+        if(n == 0){
             return ;
         }
         
