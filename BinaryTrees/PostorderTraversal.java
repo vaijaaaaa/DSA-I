@@ -1,9 +1,10 @@
 import java.util.*;
 
+
 class TreeNode{
     int val;
     TreeNode left;
-    TreeNode rigth;
+    TreeNode right;
 
     TreeNode(){
 
@@ -14,28 +15,26 @@ class TreeNode{
     TreeNode(int val,TreeNode left,TreeNode right){
         this.val = val;
         this.left = left;
-        this.rigth = right;
+        this.right = right;
     }
 }
 
 
 
-public class PreorderTraversal {
+public class PostorderTraversal {
     
-    public List<Integer> preorder(TreeNode root){
+    public List<Integer> postorderTraversal(TreeNode root){
         ArrayList<Integer> ls = new ArrayList<>();
-
+        helperpostorder(root, ls);
         return ls;
     }
 
-    private void preordertraversal(TreeNode node, ArrayList<Integer> ls){
+    private void helperpostorder(TreeNode node,ArrayList<Integer> ls){
         if(node == null){
             return;
         }
+        helperpostorder(node.left, ls);
+        helperpostorder(node.right, ls);
         ls.add(node.val);
-        preordertraversal(node.left, ls);
-        preordertraversal(node.rigth, ls);
-        
-
     }
 }
