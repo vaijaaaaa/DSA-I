@@ -3,7 +3,7 @@ public class SubtreeofAnotherTree {
         if(node == null){
             return "null";
         }
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder("^");
         sb.append(node.val);
         sb.append(postorder(node.left));
         sb.append(postorder(node.right));
