@@ -12,6 +12,9 @@ public class Basics {
         tp.put(5,100);
         tp.put(10,1000);
 
+
+        System.out.println(tp);
+
         for(Map.Entry<Integer,Integer> e : tp.entrySet()){
             System.out.println(e.getKey() + " " + e.getValue());
         }
