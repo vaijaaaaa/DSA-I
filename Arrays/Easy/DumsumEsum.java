@@ -1,4 +1,6 @@
-public public int differenceOfSum(int[] nums) {
+public class DumsumEsum {
+
+    public int differenceOfSum(int[] nums) {
         int esum = 0;
         int dsum = 0;
 
@@ -12,6 +14,5 @@ public public int differenceOfSum(int[] nums) {
             }
         }
         return esum-dsum;
-    } {
-    
+    }
 }
